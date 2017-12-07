@@ -30,7 +30,7 @@ attribute :chroot,      :kind_of => String, :default => nil
 attribute :chdir,       :kind_of => String, :default => nil
 attribute :nice,        :kind_of => String, :default => nil
 attribute :prestart,    :kind_of => String, :default => nil
-attribute :program,     :kind_of => String, :default => true
+attribute :program,     :kind_of => String, :default => nil
 attribute :args,        :kind_of => Array,  :default => ['']
 attribute :platform,    :kind_of => String, :default => node['pleaserun']['platform']
 attribute :target_version, :kind_of => String, :default => node['pleaserun']['target_version']

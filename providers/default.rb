@@ -76,7 +76,6 @@ end
 def write_file(path,content,perms)
   file path do
     owner 'root'
-    group 'root'
     mode  '0700'
     content content
     action :create
